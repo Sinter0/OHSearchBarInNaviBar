@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  OHSearchController
+//
+//  Created by Xing on 2017/12/4.
+//  Copyright © 2017年 HasjOH. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r green:g blue:b alpha:a]
+#define BASE_BLUE_COLOR RGBA(0.35f, 0.68f, 1.0f, 1.0f)
+#define DARK_BLUE_COLOR RGBA(0.30, 0.64, 0.91, 1.0f)
+
+#endif /* PrefixHeader_pch */
